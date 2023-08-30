@@ -1,0 +1,15 @@
+[user]
+	name = Пащина Дмитрий
+	email = dimbox137@yandex.ru
+[init]
+	defaultBranch = master
+[alias]
+	history = log --graph
+[core]
+	editor = gedit
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
